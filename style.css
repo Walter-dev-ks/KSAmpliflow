@@ -505,17 +505,17 @@ nav ul li a {
 
 /* Ícone Instagram */
 .instagram-icon::before {
-  background-image: url('/assets/instagram.png'); /* Coloque o caminho correto */
+  background-image: url('assets/instagram.png'); /* Coloque o caminho correto */
 }
 
 /* Ícone Email */
 .email-icon::before {
-  background-image: url('/assets/o-email.png');
+  background-image: url('assets/o-email.png');
 }
 
 /* Ícone Whatsapp */
 .whatsapp-icon::before {
-  background-image: url('/assets/whatsapp.png');
+  background-image: url('assets/whatsapp.png');
 }
 
 
@@ -552,7 +552,7 @@ nav ul li a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .contact-item h3 {
